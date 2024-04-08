@@ -1,38 +1,236 @@
-.App {
-  text-align: center;
+.navbar {
+  padding: 60px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand,
+.nav-link {
+  color: rgb(18, 18, 18);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-brand {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-item:last-child .nav-link {
+  background-color: rgb(145, 115, 228);
+  padding: 10px 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-item {
+  margin-left: 80px;
+  font-size: 14px;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.navbar-nav {
+  flex: 1;
+  justify-content: space-between;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.text-left {
+  text-align: left;
+  font-family: "Lexend", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 30px;
+}
+
+.text-right {
+  text-align: left;
+  font-family: "Lexend", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 80px;
+}
+
+.landing-page-text-2 {
+  text-align: center;
+  font-family: "Lexend", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  width: 50%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.landing-page-text-3 {
+  text-align: center;
+  font-family: "Lexend", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.landing-page-text-3-2 {
+  text-align: center;
+  font-family: "Lexend", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  width: 50%;
+  margin-bottom: 60px;
+}
+
+.happy-clients {
+  margin-top: 60px;
+  background-color: rgb(225, 214, 255);
+  font-family: "Lexend", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.brand-names {
+  display: flex;
+  /* Change to flex to align items horizontally */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* Adjust to space-around for better spacing */
+  margin-top: 20px;
+  /* Add margin between heading and icons */
+}
+
+.material-symbols-outlined {
+  font-size: 36px;
+  /* Increase font size for icons */
+  margin: 10px;
+  /* Adjust margin for spacing */
+}
+
+.what-we-do {
+  padding: 60px;
+  /* background-color: rgb(24, 23, 33); */
+  background-color: black;
+  color: white;
+  font-family: "Lexend", sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 2;
+}
+
+.custom-list {
+  list-style: none;
+  padding: 0;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.custom-list li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid white;
+  transition: background-color 0.3s;
+}
+
+.custom-list li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* .scrolling-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.scrolling-text {
+  display: inline-block;
+  padding-right: 50px;
+} */
+
+.scrolling-container {
+  font-family: "Lexend", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 30px;
+}
+
+.scrolling-container-h {
+  font-size: 60px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 40px;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.footer-column {
+  padding: 0 15px;
+}
+
+.footer-heading {
+  color: white;
+  margin-top: 20px;
+}
+
+.footer-special-text {
+  font-size: 26px;
+}
+
+.footer-menu {
+  color: lightgrey;
+}
+
+.footer-menu-item {
+  margin-bottom: 5px;
+}
+
+.footer-menu-item:hover {
+  cursor: pointer;
+}
+
+.disclaimer-text {
+  color: rgb(184, 184, 184);
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+@media (max-width: 768px) {
+  .text-right {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .text-left {
+    margin-left: 20px;
+  }
+
+  .landing-page-text-2 {
+    font-size: 36px;
+    width: 80%;
+  }
+
+  .landing-page-text-3 {
+    font-size: 36px;
+    width: 80%;
+  }
+
+  .text-right {
+    font-size: 36px;
   }
 }

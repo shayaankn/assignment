@@ -1,0 +1,23 @@
+Project Title: Website Clone using React
+
+Description:
+This project is a React-based web application made as an assignment. It utilizes various React components to create a user-friendly interface.
+
+Components:
+Navbar: Navigation bar component for easy navigation throughout the application.
+Footer: Footer component providing additional information.
+Other Components: 3 text components, 1 stats component, 1 clients list component, 1 additional information component
+
+Technologies Used:
+React: A JavaScript library for building user interfaces.
+Bootstrap: A front-end framework for developing responsive and mobile-first websites.
+
+Dependencies:
+React: MIT License
+Bootstrap: MIT License, Copyright 2018 Twitter
+
+Additional Information:
+Due to time constraints, animations were not implemented in this version of the project. Custom CSS styling has been applied to enhance the visual appeal and user experience.
+
+Shayaan Khan
+shayaankhan11@gmail.com
