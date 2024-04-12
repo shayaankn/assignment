@@ -12,12 +12,15 @@ Technologies Used:
 React: A JavaScript library for building user interfaces.
 Bootstrap: A front-end framework for developing responsive and mobile-first websites.
 
+Updates (12th April 2024):
+- Added logos in the 'Clients' component to make the website look better
+- Added landing page text animations
+
 Dependencies:
 React: MIT License
 Bootstrap: MIT License, Copyright 2018 Twitter
 
-Additional Information:
-Due to time constraints, animations were not implemented in this version of the project. Custom CSS styling has been applied to enhance the visual appeal and user experience.
+Used dummy logos from https://www.uilogos.co/ licensed under CC-BY-4.0. Link to the license - https://creativecommons.org/licenses/by/4.0/deed.en 
 
 Shayaan Khan
 shayaankhan11@gmail.com

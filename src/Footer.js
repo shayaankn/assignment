@@ -14,6 +14,8 @@ const Footer = () => {
                             <span style={{ color: 'rgb(145, 115, 228)' }}>Digital Heartbeat</span>
                         </h6>
                         <p className="disclaimer-text">This is a dummy website made as an assignment. I don't own any rights.</p>
+                        {/* <p className="disclaimer-text">Logo API was used from <a href='clearbit.com'>clearbit.com</a></p> */}
+                        <p className="disclaimer-text">Logos by <a href="https://www.uilogos.co/">uilogos.co</a>. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/deed.en">CC-BY-4.0.</a></p>
                     </div>
                     <div className="col-md-4 footer-column">
                         <h6 className="footer-heading">Menu</h6>
